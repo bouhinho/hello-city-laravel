@@ -1,4 +1,6 @@
-@extends('base')
+@extends('app')
+
+@section('title', 'Hello City | About Us')
 
 @section('content')
     <p>Built with &hearts; by LES TEACHER DU NET.</p>
