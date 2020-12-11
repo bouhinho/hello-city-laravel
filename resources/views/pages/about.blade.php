@@ -4,7 +4,7 @@
 
 @section('content')
     
-    <img src="/images/tdn-logo.jpg" alt="TDN Logo">
+    <img src="{{ asset('/images/djibouti-flag.png') }}">
 
     <p>Built with &hearts; by LES TEACHER DU NET.</p>
 
