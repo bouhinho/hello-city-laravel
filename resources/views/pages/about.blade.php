@@ -4,7 +4,7 @@
 
 @section('content')
     
-    <img src="{{ asset('/images/djibouti-flag.png') }}">
+    <img src="{{ asset('/images/djibouti-flag.png') }}"> 
 
     <p>Built with &hearts; by LES TEACHER DU NET.</p>
 
