@@ -2,11 +2,11 @@
 
 @section('content')
 
-    <img src="{{ asset('/images/djibouti-flag.png') }}" alt="Djibouti Flag">
+    <img src="{{ asset('/images/djibouti-flag.png') }}" alt="Djibouti Flag" class="mt-12 rounded shadow-md h-32">
    
-    <h1>Hello from Djibouti!</h1>
+    <h1 class="mt-5 text-5xl sm:text-5xl font-semibold text-indigo-600">Hello from Djibouti!</h1>
 
-    <p>It's currently {{ date('h:i A') }}.</p>    
+    <p class="mt-3 text-lg text-gray-800">It's currently {{ date('h:i A') }}.</p>    
 @endsection
         
 
